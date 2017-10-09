@@ -62,9 +62,9 @@ body {
     font-size: 13px;
     font-weight: bold;
     border: 0;
-    text-shadow: 0px 1px 0px rbga(255, 255, 255, 1);
+    //text-shadow: 0px 1px 0px 2px(255, 255, 255, 1);
     background-color: #f6ba35;
-    background-image: -webkit-linear-gradient(90deg, #eca418, #ffcd4e);
+    background-image:url("http://gdrtech.com/wp-content/uploads/2015/04/banner.jpg");
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
