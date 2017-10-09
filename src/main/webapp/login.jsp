@@ -5,22 +5,28 @@
     <meta charset="UTF-8">
     <title>Login</title>
 
-     <link rel="stylesheet" href="http://gdrtech.com/wp-content/uploads/2015/04/banner.jpg">
+     <%--<link rel="stylesheet" href="http://gdrtech.com/wp-content/uploads/2015/04/banner.jpg">--%>
 
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
 
 </head>
 
 <body>
+
+<div>
+    <img src='image/banner.jpg' style='width:100%;height:100%' alt='[]'/>
 <div class="login">
-    <h2>Log In</h2>
+
+
+
+    <h2>LOGIN</h2>
     <form method="post" action="">
-        <input type="radio" name="cookie" value="none"  checked> <label> none</label>
-        <input type="radio" name="cookie" value="http"> <label> Http</label>
-        <input type="radio" name="cookie" value="secure"> <label> secure</label>
-        <input type="radio" name="cookie" value="both"> <label> both</label>
+        <input type="radio" name="cookie" value="none"  checked> <label> NONE</label>
+        <input type="radio" name="cookie" value="http"> <label> HTTP</label>
+        <input type="radio" name="cookie" value="secure"> <label> SECURE</label>
+        <input type="radio" name="cookie" value="both"> <label> BOTH</label>
         <fieldset>
             <input type="email" placeholder="Email" name="email"/>
             <input type="password" placeholder="Password" name="password"/>
@@ -32,6 +38,7 @@
         </div>
     </form>
 </div>
+    </div>
 
 
 </body>

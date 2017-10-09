@@ -2,10 +2,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>LOGIN</title>
+
     <script>alert(document.cookie)</script>
 </head>
 <body>
+
+
+
 <%
     String userId = null;
     Cookie[] cookies = request.getCookies();
