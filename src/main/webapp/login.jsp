@@ -1,14 +1,11 @@
 
-
-
-
 <!DOCTYPE html>
-<html >
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Login Form</title>
+    <title>Login</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+     <link rel="stylesheet" href="http://gdrtech.com/wp-content/uploads/2015/04/banner.jpg">
 
 
     <link rel="stylesheet" href="css/style.css">
@@ -20,7 +17,7 @@
 <div class="login">
     <h2>Log In</h2>
     <form method="post" action="">
-        <input type="radio" name="cookie" value="no"  checked> <label> no</label>
+        <input type="radio" name="cookie" value="none"  checked> <label> none</label>
         <input type="radio" name="cookie" value="http"> <label> Http</label>
         <input type="radio" name="cookie" value="secure"> <label> secure</label>
         <input type="radio" name="cookie" value="both"> <label> both</label>
@@ -31,7 +28,7 @@
         <input type="submit" value="Log In" name="login"/>
         <div class="utilities">
             <a href="#">Forgot Password?</a>
-            <a href="#">Sign Up &rarr;</a>
+            <a href="#">Sign Up  &rarr;</a>
         </div>
     </form>
 </div>
